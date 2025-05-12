@@ -17,7 +17,7 @@ public class EstatisticaController {
 	private TransacaoRepository repo;
 	
 	
-	@GetMapping("/estatisticas")
+	@GetMapping("/estatistica")
 	public Estatistica showEstatisticas(){
 		Estatistica estatisticas = new Estatistica();
 		List<Transacao> transacoes = repo.getTransacoes();

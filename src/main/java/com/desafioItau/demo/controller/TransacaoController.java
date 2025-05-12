@@ -38,7 +38,7 @@ public class TransacaoController {
 		return repo.getTransacoes().size();
 	}
 	
-	@DeleteMapping("/delete")
+	@DeleteMapping("/transacao")
 	public ResponseEntity<String> deleteAllTransacoes(){
 		repo.deleteTransacoes();
 		return ResponseEntity.status(HttpStatus.OK).body(null);
