@@ -1,0 +1,1 @@
+Utilizei o conhecimento que tenho até o momento sobre spring e apliquei ao código. Ele executa o que foi pedido no desafio e é apenas um projeto simples para evoluir minha prática. Segue o link do desafio: https://github.com/feltex/desafio-itau-backend/blob/main/README.md#desafio-itau-backend
