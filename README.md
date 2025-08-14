@@ -1,1 +1,3 @@
-Utilizei o conhecimento que tenho até o momento sobre spring e apliquei ao código. Ele executa o que foi pedido no desafio e é apenas um projeto simples para evoluir minha prática. Segue o link do desafio: https://github.com/feltex/desafio-itau-backend/blob/main/README.md#desafio-itau-backend
+## Sobre
+Em busca de aprimorar meu conhecimento, hoje eu solucionei o desafio backend do Itaú. Usei todo meu conhecimento em API RestFul e Spring Boot para solucionar da maneira mais objetiva possível. Segue o [link](https://github.com/feltex/desafio-itau-backend/blob/main/README.md#desafio-itau-backend
+) do desafio. 
