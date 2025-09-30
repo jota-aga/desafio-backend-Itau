@@ -3,12 +3,14 @@ package com.desafioItau.demo.dto;
 import java.time.OffsetDateTime;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Past;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.PositiveOrZero;
 
 
 public class TransacaoRequest {
 	
-	@DecimalMin(value="0.0")
-	private double valor;
+	@PositiveOrZero
+	private Double valor;
 	
 	@Past
 	private OffsetDateTime dataHora;
@@ -18,17 +20,17 @@ public class TransacaoRequest {
 	
 	}
 
-	public TransacaoRequest(@DecimalMin("0.0") double valor, OffsetDateTime dataHora) {
+	public TransacaoRequest( Double valor, OffsetDateTime dataHora) {
 		super();
 		this.valor = valor;
 		this.dataHora = dataHora;
 	}
 
-	public double getValor() {
+	public Double getValor() {
 		return valor;
 	}
 
-	public void setValor(double valor) {
+	public void setValor(Double valor) {
 		this.valor = valor;
 	}
 

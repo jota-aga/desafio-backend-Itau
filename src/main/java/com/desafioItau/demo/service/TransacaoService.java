@@ -1,4 +1,4 @@
-package com.desafioItau.demo.repository;
+package com.desafioItau.demo.service;
 
 import java.util.ArrayList;
 
@@ -7,13 +7,13 @@ import org.springframework.stereotype.Service;
 import com.desafioItau.demo.entity.Transacao;
 
 @Service
-public class TransacaoRepository {
-	
+public class TransacaoService {
 	private ArrayList<Transacao> transacoes;
 	
-	public TransacaoRepository() {
+	public TransacaoService() {
 		this.transacoes = new ArrayList<>();
 	}
+	
 	
 	public void addTransacao(Transacao transacao) {
 		this.transacoes.add(transacao);
@@ -26,5 +26,6 @@ public class TransacaoRepository {
 	public void deleteTransacoes() {
 		transacoes.clear();
 	}
-    
+	
+	
 }
